@@ -1,0 +1,38 @@
+.site-marker {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.site-marker__icon {
+  width: 14px;
+  height: 14px;
+  filter: drop-shadow(0 0.5px 0.5px rgba(0, 0, 0, 0.3));
+}
+
+.site-marker:hover {
+  transform: scale(1.5);
+  z-index: 100;
+}
+
+.site-marker--selected {
+  width: 30px;
+  height: 30px;
+  border: 3px solid white;
+  box-shadow: 0 0 0 3px #FF6B6B, 0 3px 6px rgba(0, 0, 0, 0.4);
+  z-index: 50;
+}
+
+.site-marker--selected .site-marker__icon {
+  width: 18px;
+  height: 18px;
+}
+
