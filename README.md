@@ -14,7 +14,7 @@
 
 ```bash
 # Установка зависимостей
-npm install
+npm install 
 
 # Запуск dev-сервера
 npm run dev
