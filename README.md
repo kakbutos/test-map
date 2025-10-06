@@ -2,7 +2,7 @@
 
 ## Демо
 
-Живое демо: https://kakbutos.github.io/
+Живое демо: https://kakbutos.github.io/test-map
 
 ### Видео
 
